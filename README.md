@@ -31,8 +31,12 @@ En este documento, he fusionado las predicciones obtenidas en el paso "Predictio
 En este último archivo, y utilizando Flask, genero una API donde se recogen los análisis generados. La direccion URL de la API es la siguiente: http://diegocaulonga.pythonanywhere.com/
 Para observar los análisis ofrecidos, habrá que añadir una serie de endpoints a la URL adjuntada.
 1. Los datos utilizados como argumento para el algoritmo de Machine Learning y las predicciones principales obtenidas (endpoint= /datos/) *Adjunto la URL completa que deberian meter a modo de ejemplo: diegocaulonga.pythonanywhere.com/datos 
+
 2.Las totalidad de las predicciones obtenidas (endpoint= /predicciones/) 
+
 3.Los equipos que descenderán y sus respectivas cuotas si el evento se cumpliera (endpoint= /descensos/) 
+
 4.Los equipos que quedarán entre los 4 primeros puestos y sus respectivas cuotas si el evento se cumpliera (endpoint = /primeros4) 
+
 5.Los partidos de la próxima jornada, las cuotas que rodean a la posibilidad de que se marquen 3 o más goles en ellos, y los goles que calculamos que se marcarán en el partido (endpoint = /3goles/). 
 *En el caso de los descensos, y los primeros4, las URLs tienen la posibilidad de añadir un endpoint mas (/favoritos/) en el que se podrá encontrar la cuota favorita en cada caso.
