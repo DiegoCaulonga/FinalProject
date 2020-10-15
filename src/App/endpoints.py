@@ -41,6 +41,7 @@ def desc():
 def descf():
     descensosf = pd.read_csv(PATH+"Descensos.csv").drop(columns=["Position"])
     descensosF = descensosf.sort_values(by="Cuotas",ascending=False).head(1)
+    return descensosF
 
 @app.route('/primeros4/')
 def prim4():
