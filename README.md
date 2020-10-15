@@ -10,10 +10,10 @@ Lo primero que hice, fue crear un pipeline con el cual, introduciendo jornada y 
 ### Train creation.ipynb
 Aquí, apliqué el pipeline a todas las temporadas disponibles, para obtener todos los datos discriminantes de los diferentes equipos en la jornada 5 (posición, puntos, victorias, derrotas, empates, goles a favor, y goles en contra) y los resultados que habían obtenido teniendo esas premisas, de posición, puntos y goles en la jornada 38. Uní, diferenciando por dato de la jornada 38, todas las tablas obtenidas, creando 3 csv: Position.csv, Goals.csv y Points.csv
 
-### X_test creation
+### X_test creation.ipynb
 Para poder entrenar el algorítmo y obtener unas predicciones sobre que pasaría esta temporada con la posición, los puntos, y los goles de los diferentes equipos de La Liga Santander, tenía que sustraer de la API también, los datos discriminantes de los equipos a estudiar a día de hoy, en la jornada 5 de la temporada 2020/2021.
 
-### Algorithm training
+### Algorithm training.ipynb
 En este documento, y utilizando todos los datos obtenidos previamente, entreno el algorítmo ExtraTreeClassifier. Esto me sirvió para obtener las predicciones que la inteligencia artificial cree que deberían pasar al final de esta temporada, teniendo en cuenta como se desarrollaron las anteriores, y como va la actual.
 
 ## Scraping
